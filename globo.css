@@ -1,0 +1,172 @@
+ /* Replica do Site da Globo para treino de HTML / CSS  */
+
+ body {
+    width: 85%;
+    margin: 0 auto 0px auto;
+    background: #FFFFFF;
+    font-family: 'Encode Sans', sans-serif;
+ }
+
+ .container {
+     display: flex;
+ }
+
+ .caixa {
+    width: 53%;
+    margin-right: 2%;
+ }
+
+ .sessao-titulo {
+     border-bottom: 1px solid #EBEDEF;
+     margin: 15px 0;
+     padding-bottom: 20px;
+ }
+
+ .titulo {
+     font-size: 52px;
+     font-weight: bold;
+     color: #C4160C;
+     width: 100%;
+     margin: 0 0 30px 0;
+ }
+
+ .subtitulo {
+     font-size: 18px;
+     color: black;
+     margin: 5px 0;
+     font-weight: 500;
+ }
+
+ .noticias-flex {     /* Aqui ja possui width:50% devido a caixa anterior */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.noticias2-flex {
+   width: 45%;
+   display: flex;
+   flex-wrap: wrap;
+   border-left: 1px solid #EBEDEF;
+   justify-content: space-between;
+   padding-left: 20px;
+   margin: 30px 20px;
+}
+
+a {
+   text-decoration: none;
+}
+
+ .caixa-noticias {
+     width: 193px;
+     margin-bottom: 15px;
+ }
+
+ .caixa2-noticias {
+    width: 240px;
+    margin-bottom: 20px;
+}
+
+.imagens1 {
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+.imagens2 {
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+}
+
+.imagens1:hover{
+    opacity: 0.8;
+}
+
+.imagens2:hover{
+    opacity: 0.8;
+}
+
+ .subtitulo-imagem {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #C4170C;
+    margin: 5px 0;
+    font-weight: 500;
+ }
+
+ .titulo-imagem {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #2F3134;
+    margin: 0;
+    font-weight: 700;
+ }
+
+ .p-imagem {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #2F3134;
+    margin: 5px 0;
+    font-weight: 400;
+ }
+
+ /* ESTILO DO CABEÇALHO */
+ header {
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+ }
+ header img {
+    height: 36px;
+    margin: auto 0;
+ }
+ nav {
+    border-top: 1px solid #EBEDEF;
+    border-bottom: 1px solid #EBEDEF;
+    display: flex;
+    justify-content: space-between;
+ }
+ h5 {
+     font-size: 19px;
+     margin: 10px 0;
+     font-weight: 700;
+ }
+ h5:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+ .g1 {
+    color: #c3170c;
+  }
+  .oglobo {
+    color: #1e4b9b;
+  }
+  .valor {
+    color: #006766;
+  }
+  .ge {
+    color: #07aa47;
+  }
+  .cartola {
+    color: #e3662b;
+  }
+  .globoplay {
+    color: #fb0735;
+  }
+  .dropz {
+    color: #ff75bb;
+  }
+  .gshow {
+    color: #ec7d00;
+  }
+  .quem {
+    color: #323333;
+  }
+  .receitas {
+    color: #a81d83;
+  }
