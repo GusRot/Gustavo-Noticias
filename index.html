@@ -1,160 +1,228 @@
 <!-- Replica do Site da Globo para treino de HTML / CSS -->
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-    <meta charset="UTF-8">
     <title>Replica Globo</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="globo.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="g1.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <img src="imagens/logo.png">
+      <img src="imagens/gustavo_rotta_perfil.png" />
     </header>
 
     <nav>
-        <h5 class = "g1">g1</h5>
-        <h5 class="oglobo">o globo</h5>
-        <h5 class="valor">valor</h5>
-        <h5 class="ge">ge</h5>
-        <h5 class="cartola">cartola</h5>
-        <h5 class="globoplay">globoplay</h5>
-        <h5 class="dropz">dropz</h5>
-        <h5 class="gshow">gshow</h5>
-        <h5 class="quem">quem</h5>
-        <h5 class="receitas">receitas</h5>
+      <div>
+        <a href="#" target="blank"><h5 class="gatos">Gatos</h5></a>
+        <a href="#" target="blank"><h5 class="gustavor">GustavoR</h5></a>
+        <a href="#" target="blank"><h5 class="gincana">Gincana</h5></a>
+        <a href="#" target="blank"><h5 class="g1">G1</h5></a>
+        <a href="#" target="blank"><h5 class="games">Games</h5></a>
+        <a href="#" target="blank"><h5 class="globo">GloboTerreste</h5></a>
+        <a href="#" target="blank"><h5 class="gnews">GNews</h5></a>
+        <a href="#" target="blank"><h5 class="ggwp">ggwp</h5></a>
+      </div>
     </nav>
 
-    <main class="container">  <!-- Container para criar um flex nos elementos -->
-        <div class="caixa">  <!-- caixa para criar uma sparaçao lateral na outra DIV (50% cada)-->
-            <section class="sessao-titulo"> <!-- chamei de section pois tem conteudos diferentes nas duas divisoes-->
-                <h1 class="titulo">Vacinados entraram nos EUA sem quarentena a partir de 8 de novembro</h1>
-                <p class="subtitulo">Ministros 'lavam as mãos' sobre Bolsonaro não se vacinar, relata blog</p>
-                <p class="subtitulo">Bandeiras em frente ao congresso lembram 600mil brasileiros mortos</p>
-            </section>
+    <main class="container">
+      <!-- Container para criar um flex nos elementos -->
+      <div class="caixa">
+        <!-- caixa para criar uma sparaçao lateral na outra DIV (50% cada)-->
+        <section class="sessao-titulo">
+          <!-- chamei de section pois tem conteudos diferentes nas duas divisoes-->
+            <div class="video-container" >
+                <iframe width="580" height="250" src="https://www.youtube.com/embed/_baItO4B2qM?autoplay=1&mute=1&controls=0&loop=1&playlist=_baItO4B2qM" title="YouTube video player" frameborder="0"></iframe>
+            </div>
+          <p class="subtitulo">
+            9 a cada 10 brasileiros conseguem imaginar o som desse video.
+          </p>
+          <p class="subtitulo">
+            100% das 9 pessoas reproduziram a música ao ler a frase acima.
+          </p>
+        </section>
 
-            <section class="noticias-flex"> <!-- chamei de section pois tem conteudos diferentes nas duas divisoes-->
-                <div class="caixa-noticias">
-                    <a href="https://globo.com" target="blank">
-                        <img class="imagens1" src="imagens/alem-do-presidente.jpeg">
-                        <h4 class="subtitulo-imagem">Além do presidente</h4>
-                        <h2 class="titulo-imagem">CPI deve pedir o indiciamento de filhos de Bolsonaro</h2>
-                        <p class="p-imagem">A evangélicos, Bolsonaro diz 'chorar sozinho em casa'</p>
-                    </a>
-                </div>
+        <section class="noticias-flex">
+          <!-- chamei de section pois tem conteudos diferentes nas duas divisoes-->
+          <div class="caixa-noticias">
+            <a href="#" target="blank">
+              <img class="imagens1" src="imagens/Pqnina.jpg" />
+              <h4 class="subtitulo-imagem">Mundo Animal</h4>
+              <h2 class="titulo-imagem">
+                CPI deve pedir o indiciamento de filhos felinos
+              </h2>
+              <p class="p-imagem">
+                "Eles estão muito mal acostumados"
+              </p>
+            </a>
+          </div>
 
-                <div class="caixa-noticias">
-                    <a href="https://globo.com" target="blank">
-                        <img class="imagens1" src="imagens/crimes-na-fronteira.jpeg">
-                        <h4 class="subtitulo-imagem">Crimes na fronteira</h4>
-                        <h2 class="titulo-imagem">Triângulo amoroso vira chave em linha de investigação</h2>
-                        <p class="p-imagem">1ª de 7 mortes entre Brasil e Paraguai faz 1 semana</p>
-                    </a>
-                </div>
+          <div class="caixa-noticias">
+            <a href="#" target="blank">
+              <img class="imagens1" src="imagens/Dragonball.jpg" />
+              <h4 class="subtitulo-imagem">Geek</h4>
+              <h2 class="titulo-imagem">
+                Lista dos melhores animes da história
+              </h2>
+              <p class="p-imagem">
+                (2min de leitura) (A lista é pequena)
+              </p>
+            </a>
+          </div>
 
-                <div class="caixa-noticias">
-                    <a href="https://globo.com" target="blank">
-                        <img class="imagens1" src="imagens/reino-unido.jpeg">
-                        <h4 class="subtitulo-imagem">Reino Unido</h4>
-                        <h2 class="titulo-imagem">Parlamentar inglês é esfaqueado e morto em igreja</h2>
-                        <p class="p-imagem">Parlamentar inglês é esfaqueado e morto em igreja</p>
-                    </a>
-                </div>
+          <div class="caixa-noticias">
+            <a href="#" target="blank">
+              <img class="imagens1" src="imagens/got.jpg" />
+              <h4 class="subtitulo-imagem">GoT Board Game</h4>
+              <h2 class="titulo-imagem">
+                Jovens passam 12hrs jogando uma partida
+              </h2>
+              <p class="p-imagem">
+                Conheça o jogo que vicia as pessoas
+              </p>
+            </a>
+          </div>
 
-                <div class="caixa-noticias">
-                    <a href="https://globo.com" target="blank">
-                        <img src="">
-                        <h4 class="subtitulo-imagem">Sabatina de Mendonça</h4>
-                        <h2 class="titulo-imagem">PGR é consultada sobre investigação contra Alcolumbre</h2>
-                        <p class="p-imagem">Aliados dizem que situação de Alcolumbre ‘está feia’</p>
-                    </a>
-                </div>
+          <div class="caixa-noticias">
+            <a href="#" target="blank">
+              <img class="imagens1" src="imagens/DISTURBED.jpg"  />
+              <h4 class="subtitulo-imagem">Old School</h4>
+              <h2 class="titulo-imagem">
+                O Rock está vivo?
+              </h2>
+              <p class="p-imagem">
+                Conheça as bandas da atualidade que fazem jus ao estilo musical
+              </p>
+            </a>
+          </div>
 
-                <div class="caixa-noticias">
-                    <a href="https://globo.com" target="blank">
-                        <img src="">
-                        <h4 class="subtitulo-imagem">Negócio de R$ 5,2 bi</h4>
-                        <h2 class="titulo-imagem">Pão de Açúcar vende 71 pontos do Extra para o Assaí</h2>
-                        <p class="p-imagem">Lembre fusões e aquisições bilionárias recentes no país</p>
-                    </a>
-                </div>
+          <div class="caixa-noticias">
+            <a href="#" target="blank">
+              <img class="imagens1" src="imagens/GodOfWar.jpg" />
+              <h4 class="subtitulo-imagem">Cleiton</h4>
+              <h2 class="titulo-imagem">
+                Você não vai acreditar nisso
+              </h2>
+              <p class="p-imagem">
+                Conhecido como, "O Bom da Guerra" traz inovações...
+              </p>
+            </a>
+          </div>
 
-                <div class="caixa-noticias">
-                    <a href="https://globo.com" target="blank">
-                        <img src="">
-                        <h4 class="subtitulo-imagem">Elo com caminhoneiros</h4>
-                        <h2 class="titulo-imagem">Podcast: ministro liga empresários a atos de 7/9; ouça</h2>
-                        <p class="p-imagem">Neto de Jango critica veto de Bolsonaro a tributo</p>
-                    </a>
-                </div>
-            </section>
+          <div class="caixa-noticias">
+            <a href="#" target="blank">
+              <img class="imagens1" src="imagens/bacia.jpg"  />
+              <h4 class="subtitulo-imagem">Gatos</h4>
+              <h2 class="titulo-imagem">
+                10 Curiosidades sobre os gatos
+              </h2>
+              <p class="p-imagem">
+                Conheça mais sobre os nossos amigos felinos
+              </p>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <div style="margin-right: 2%;" class="linha-vertical"></div>
+
+      <div class="noticias2-flex">
+        <!-- caixa para criar uma sparaçao lateral na outra DIV-->
+        <div class="caixa2-noticias">
+          <a href="#" target="blank">
+            <img class="imagens2" src="imagens/universe.jpg" />
+            <h4 class="subtitulo-imagem">O Globo</h4>
+            <h2 class="titulo-imagem">
+              Veja o horóscopo da semana
+            </h2>
+            <p class="p-imagem">
+              Áries está próximo de Netuno, ou seja, Plutão é um Planeta
+            </p>
+          </a>
         </div>
 
-        <div class="noticias2-flex"> <!-- caixa para criar uma sparaçao lateral na outra DIV-->
-            <div class="caixa2-noticias">
-                <a href="https://globo.com" target="blank">
-                    <img class="imagens2" src="imagens/espiao-estatistico.jpeg">
-                    <h4 class="subtitulo-imagem">Espião estatístico</h4>
-                    <h2 class="titulo-imagem">Classificação do returno tem Palmeiras em último; veja as posições</h2>
-                    <p class="p-imagem">Crespo almoça com diretoria e deve se despedir no CT</p>
-                </a>
-            </div>
+        <div class="linha-vertical"></div>
 
-            <div class="caixa2-noticias">
-                <a href="https://globo.com" target="blank">
-                    <img class="imagens2" src="imagens/ferias-e-jh.jpeg">
-                    <h4 class="subtitulo-imagem">Férias e JH</h4>
-                    <h2 class="titulo-imagem">César Tralli se emociona na despedida do SP1</h2>
-                    <p class="p-imagem"></p>
-                </a>
-            </div>
-
-            <div class="caixa2-noticias">
-                <a href="https://globo.com" target="blank">
-                    <img class="imagens2" src="imagens/greve-segue-na-raposa.jpeg">
-                    <h4 class="subtitulo-imagem">Greve segue na Raposa</h4>
-                    <h2 class="titulo-imagem">Cruzeiro não viabiliza recurso para quitar atrasados</h2>
-                    <p class="p-imagem"></p>
-                </a>
-            </div>
-
-            <div class="caixa2-noticias">
-                <a href="https://globo.com" target="blank">
-                    <img class="imagens2" src="imagens/verdades-secretas-2.jpeg">
-                    <h4 class="subtitulo-imagem">Verdades Sceretas 2</h4>
-                    <h2 class="titulo-imagem">Angel cruza a passarela poderosa; reveja desfileso</h2>
-                    <p class="p-imagem">Blanche terá dois relacionamentos <br> Gabriel viverá sadomasoquista</p>
-                </a>
-            </div>
-
-            <div class="caixa2-noticias">
-                <a href="https://globo.com" target="blank">
-                    <img class="imagens2" src="imagens/campeonato-frances.jpeg">
-                    <h4 class="subtitulo-imagem">Campeonato francês</h4>
-                    <h2 class="titulo-imagem">Desfalcado, PSG recebe o Angers, 4º colocado</h2>
-                    <p class="p-imagem">Blanche terá dois relacionamentos <br> Gabriel viverá sadomasoquista</p>
-                </a>
-            </div>
-
-            <div class="caixa2-noticias">
-                <a href="https://globo.com" target="blank">
-                    <img class="imagens2" src="imagens/nos-tempos-do-imperador.jpeg">
-                    <h4 class="subtitulo-imagem">Nos Tempos do Imperador</h4>
-                    <h2 class="titulo-imagem">Lota vai cair em golpe</h2>
-                    <p class="p-imagem">Teresa toma decisão radical</p>
-                </a>
-            </div>
+        <div class="caixa2-noticias">
+          <a href="#" target="blank">
+            <img class="imagens2" src="imagens/Storm.jpg" />
+            <h4 class="subtitulo-imagem">Stormtropper</h4>
+            <h2 class="titulo-imagem">
+              Foi revelado o motivo de errarem os tiros
+            </h2>
+            <p class="p-imagem"></p>
+          </a>
         </div>
+
+        <div class="caixa2-noticias">
+          <a href="#" target="blank">
+            <img class="imagens2" src="imagens/secando.jpg" />
+            <h4 class="subtitulo-imagem">Gatos</h4>
+            <h2 class="titulo-imagem">
+              Banho de sol
+            </h2>
+            <p class="p-imagem">Curioso caso de gato que se seca com as louças</p>
+          </a>
+        </div>
+
+        <div class="linha-vertical"></div>
+
+        <div class="caixa2-noticias">
+          <a href="#" target="blank">
+            <img class="imagens2" src="imagens/florest.png" />
+            <h4 class="subtitulo-imagem">WoW 2</h4>
+            <h2 class="titulo-imagem">
+              Devs desistem do WoW
+            </h2>
+            <p class="p-imagem">
+              Apenas um novo jogo pode salvar a franquia
+            </p>
+          </a>
+        </div>
+
+        <div class="caixa2-noticias">
+          <a href="#" target="blank">
+            <img class="imagens2" src="imagens/rogue-one.jpeg" />
+            <h4 class="subtitulo-imagem">Filmes</h4>
+            <h2 class="titulo-imagem">
+              Lista dos melhores filmes da história
+            </h2>
+            <p class="p-imagem">
+              Star Wars fora da lista <br />
+              "Foram muitos filmes ruins, diz diretor"
+            </p>
+          </a>
+        </div>
+
+        <div class="linha-vertical"></div>
+
+        <div class="caixa2-noticias">
+          <a href="#" target="blank">
+            <img class="imagens2" src="imagens/sleep2.jpg" />
+            <h4 class="subtitulo-imagem">Nos Tempos do Egito</h4>
+            <h2 class="titulo-imagem">Gatos são tratados como reis</h2>
+            <p class="p-imagem">Fazem o que querem, na hora que querem</p>
+          </a>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <br><br><br><br><br>
+        <br />
+        <br /><br />
+        <p>Projeto com Design baseado na Globo.com, com finalidade, apenas, de estudos e diversão</p>
+        <p>esse site não tem nenhum objetivo financeiro ou auto-promoção, adicionei imagens que achei interessante para ficar um ambiente leve e descontraído</p>
+        <p>As noticias presentes não são sérias, não se baseie em nenhuma informação, elas são apenas para diversão</p>
+        <p>Esse projeto foi feito apenas para o computador, ou seja, não há responsividade implementada</p>
+        <br /><br />
     </footer>
-
-</body>
+  </body>
 </html>
